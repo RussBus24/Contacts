@@ -2,31 +2,44 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 	<link rel="stylesheet" href="css/main.css">
 	<title>Contacts App</title>
 </head>
 <body>
-	<form>
+<div id="master-content">
+<div id="contacts-input-field">
+	<form id="contacts-data-submit">
 		<h2>Contacts</h2>
 		<h3>Add a contact:</h3>
 		<p>First Name:</p>
 		<input id="first-name" type="text" name="FirstName"><br>
 		<p>Last Name:</p>
 		<input id="last-name" type="text" name="LastName"><br>
-		<p>Phone Nmber:</p>
-		<input id="phone-number" type="text" name="PhoneNumber"><br>
 		<p>Street:</p>
 		<input id="street" type="text" name="Street"><br>
 		<p>City:</p>
 		<input id="city" type="text" name="City"><br>
 		<p>State:</p>
-		<input id="state" type="text" name="State"><br>
+		<input id="state" type="text" name="State" maxlength="2"><br>
+		<p>Phone Nmber:</p>
+		<input id="phone-number" type="tel" name="PhoneNumber"><br>
 		<br>
 		<input id="data-submit" type="submit" value="Add">
 	</form>
-	<div class="contact-info">
-	
+</div>
+<div id="contacts-info">
+	<ul class="contacts-list">
+
+	</ul>
+</div>
+<div id="contacts-display">
+	<div id="contacts-display-content">
+
 	</div>
+</div>
+</div>
 </body>
 </html>

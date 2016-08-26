@@ -1,3 +1,73 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
 p {
+	margin-top: 4px;
 	margin-bottom: 4px;
+}
+
+h2 {
+
+}
+
+#master-content {
+	height: 535px;
+	width: 907px;
+	margin: 0 auto;
+}
+
+#contacts-input-field, #contacts-info, #contacts-display {
+	border: 1px solid #000000;
+	float: left;
+	height: 530px;
+	width: 300px;
+	text-align: center;
+}
+
+.contacts-entry {
+	cursor: pointer;
+	list-style: none;
+	padding: 0;
+	transition: background 1s, color 1s;
+}
+
+.contacts-list {
+	padding: 0;
+}
+
+.contacts-entry:hover {
+	background-color: #1121FA;
+	color: #ffffff;
+}
+
+#contacts-input-field {
+	background-color: #FF288C;
+}
+
+#contacts-info {
+	background-color: #FCFBE3;
+
+}
+
+#contacts-display {
+	background-color: #7B3F00;
+
+}
+
+#contacts-display-content {
+	margin-top: 190px;
+}
+
+#contacts-display-content > h2 {
+	margin-bottom: 15px;
+}
+
+#contacts-data-submit > h2 {
+	margin-bottom: 12px;
+}
+
+#contacts-data-submit > h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
